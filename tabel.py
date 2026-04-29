@@ -80,6 +80,7 @@ moveTo(0,row)
 lines()
 changeRow()
 
+
 #input table content
 while True:
 
@@ -107,7 +108,7 @@ while True:
         
     else:
         moveTo(col[0], row)
-        print('data tidak ditemukan')
+        print('Data Tidak ditemukan.Tekan Enter....')
         input()
         moveTo(col[0], row)
         print('                                                   ')
